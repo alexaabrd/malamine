@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("css/option2.css")">
+    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("font-awesome/css/font-awesome.min.css")">
+    @scalajs.html.scripts("client", routes.Assets.versioned(_).toString, name => getClass.getResource(s"/public/$name") != null)
+    <script>
+    </script>
+    </head>
+    <body onscroll="scroll()">
+            <div class="notice">
+                FREE SHIPPING & RETURNS WORLDWIDE!
+            </div>
+        <div class="background"></div>
+        <div class="top-nav">
+            <div class="top-right">
+                <a href="" class="top-right_element">About</a>
+                <a href="" class="top-right_element"><i class="fa fa-user"></i></a>
+                <a href="" class="top-right_element"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            <div class="logo">
+                <p>MalaMine</p>
+            </div>
+
+             <div class="menu">
+                <div class="menu-option">
+                    <a href="#" class="menu-option-link menu-option_shop" onmouseenter="showShop()" onmouseleave="hideShop()">SHOP</a>
+                </div>
+                <div class="menu-option">
+                    <a href="#" class="menu-option-link">CREATE</a>
+                </div>
+                <div class="menu-option">
+                    <a href="#" class="menu-option-link">INSPIRATION</a>
+                </div>
+                <div class="menu-option">
+                    <a href="#" class="menu-option-link">LEARN</a>
+                </div>
+            </div>
+            
+            <div class="shop-menu" hidden onmouseenter="showShop()" onmouseleave="hideShop()">
+                <div class="shop-menu-column">
+                    <b class="shop-menu-column_label">Style</b>
+                    <a href="#" class="shop-option-link">All</a>
+                    <a href="#" class="shop-option-link">Necklace</a>
+                    <a href="#" class="shop-option-link">Bracelet</a>
+                </div>
+                <div class="shop-menu-column">
+                    <b class="shop-menu-column_label">Collection</b>
+                    <a href="#" class="shop-option-link">ex one</a>
+                    <a href="#" class="shop-option-link">ex two</a>
+                    <a href="#" class="shop-option-link">ex three</a>
+                    <a href="#" class="shop-option-link">ex four</a>
+                    <a href="#" class="shop-option-link">ex five</a>
+                </div>
+                <div class="shop-menu-column">
+                    <b class="shop-menu-column_label">Intention</b>
+                    <a href="#" class="shop-option-link 5">All</a>
+                    <a href="#" class="shop-option-link 1">Mindfullness</a>
+                    <a href="#" class="shop-option-link 2">Gratefulness</a>
+                    <a href="#" class="shop-option-link 3">Love</a>
+                    <a href="#" class="shop-option-link 4">Hapiness</a>
+                    <a href="#" class="shop-option-link 5">Confidence</a>
+                    <a href="#" class="shop-option-link 6">Knowledge</a>
+                    <a href="#" class="shop-option-link 7">Wealth</a>
+                    <a href="#" class="shop-option-link 8">Awareness</a>
+                    <a href="#" class="shop-option-link 9">Kindness</a>
+                    <a href="#" class="shop-option-link 10">Confidence</a>
+                </div>
+            </div>
+        </div>        
+        <div class="scrollable">
+            <div class="content">
+                <img src="https://secure.static.tumblr.com/32224d01543837814d467eed9ecc28d3/57u1pt2/dT7n1z4jc/tumblr_static_arizona-banner-az.jpg" width="100%"/>
+                <br>CONTENT goes here. So much cool stuff to shop for and look at. ALL OF THE COLORS aahahh wofjskfabnjhr vgejrbg erjkanesjcf reagt
+            </div>
+        </div>
+            <div class="bottom-nav">
+                <div class="bottom-menu-column">
+                    <b class="bottom-menu-column_label">CUSTOMER</b>
+                    <a href="#" class="bottom-menu-link">Shipping & Returns</a>
+                    <a href="#" class="bottom-menu-link">FAQ</a>
+                </div>
+                <div class="bottom-menu-column">
+                    <b class="bottom-menu-column_label">COMPANY</b>
+                    <a href="#" class="bottom-menu-link">About</a>
+                    <a href="#" class="bottom-menu-link">Retailers</a>
+                    <a href="#" class="bottom-menu-link">Privacy Policy</a>
+                    <a href="#" class="bottom-menu-link">Terms of Service</a>
+                </div>
+                <div class="bottom-menu-column">
+                    <b class="bottom-menu-column_label">CONTACT</b>
+                    <a href="#" class="bottom-menu-link">info@@malamine.com</a>
+                    <a href="#" class="bottom-menu-link">1234 Busniss Ave<br>Phoenix, Arizona 85383</a>
+                </div>
+                <div class="bottom-menu-column">
+                    <b class="bottom-menu-column_label">CONNECT</b>
+                    <form id="newsletter">
+                        <input type="text" name="email" placeholder="JOIN OUR NEWSLETTER">
+                        <button type="button">Join</button>
+                    </form>
+                    <a href="" class="connect-icon">@@MALAMINE</a>
+                    <a href="" class="connect-icon"><i class="fa fa-instagram"></i></a>
+                    <a href="" class="connect-icon"><i class="fa fa-pinterest-p"></i></a>
+                    <a href="" class="connect-icon"><i class="fa fa-snapchat-ghost"></i></a>
+                    <a href="" class="connect-icon"><i class="fa fa-facebook"></i></a>
+                </div>
+                <div class="bottom-nav-bottom">
+                    Mala Mine &copy; 2017 All Rights Reserved
+                </div>
+          </div>
+</body>
+</html>

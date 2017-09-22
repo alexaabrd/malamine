@@ -1,0 +1,182 @@
+@font-face {
+    font-family: myfont;
+    src: url('../myfont.otf');
+}
+
+    .notice {
+        display:block;
+        position:static;
+        text-align:center;
+        background:lightgray;
+        color:white;
+        width:100%;
+        padding:5px 0;
+        z-index:600;
+        height:20px;
+    }
+
+.top-nav {
+    display:block;
+    position:absolute;
+    top:25px;
+    width:100%;
+    background:white;
+    overflow:hidden;
+}
+
+    .logo {
+        display:block;
+        float:left;
+        width:200px;
+        height:75px;
+        margin-top:-40px;
+        font-family: myfont;
+        font-size:40px;
+        z-index:900;
+        padding-left:10px;
+    }
+    
+    .top-right {
+      float:right;
+      padding-right:20px;
+      padding-top:10px;
+    }
+    
+    .top-right_element {
+        padding-left:20px;
+    }
+    
+    .menu {
+        display:block;
+        font-size:16px;
+        width:60%;
+        height:20px;
+        padding-top:5px;
+        margin:10px auto; 
+        z-index:800;
+    }
+
+    .menu-option {
+        display:inline-block;
+        width:25%;
+        height:100%;
+        text-align:center;
+        margin-right:-7px;
+    }
+    
+    .menu-option-link {
+        border-bottom:2px solid transparent;
+        height:inherit;
+        padding:2px;
+    }
+
+    .menu-option-link:hover {
+        border-bottom:2px solid black;
+    }
+
+.shop-menu {
+    width:100%;
+    padding:15px;
+    float:left;
+    margin-top:-15px;
+    z-index:400;
+}
+
+    .shop-menu-column {
+        float:left;
+        margin:0 40px;
+        padding:10px;
+    }
+
+    .shop-menu-column_label {
+        display:block;
+    }
+    
+    .shop-option-link {
+        display:block;
+    }
+    
+.scrollable {
+    display:block;
+    min-height:calc(100% - 55px);
+    margin-bottom:-100px;
+    padding-top:35px;
+}
+
+.content {
+    display:block;
+    width:100%;
+    z-index:100;
+    font-size:40px;
+    color:gold;
+    background:white;
+    padding-bottom:160px;
+}
+
+.bottom-nav {
+    display:block;
+    background:white;
+    width:100%;
+    border:1px solid black;
+    z-index:900;
+    height: 150px;
+    margin-top:-150px;
+}
+
+.bottom-menu-column {
+        float:left;
+        margin:0 40px;
+        padding:10px;
+}
+.bottom-menu-column_label {
+    display:block;
+}
+.bottom-menu-link {
+    display:block;
+}
+
+.bottom-nav-bottom {
+ font-size:9px;
+ clear:left;
+ width:50%;
+ text-align:center;
+ padding-bottom:10px;
+ margin:auto;
+}
+
+#newsletter {
+    padding:5px 0;
+}
+#newsletter input {
+    height:19px;
+    min-width:initial;
+    max-width:100%;
+    padding-left:20px;
+    background: url(https://www.bankia.es/front/images/modules/icons/Email.svg) no-repeat scroll 2px 3px;
+    background-size: 15px 15px;
+    margin-right:-3px;
+}
+
+#newsletter button {
+  height:19px;
+  margin-left:0;
+  background:black;
+  color:white;
+  border-radius:0;
+  border:1px solid black;
+  padding:2px;
+  box-shadow:0;
+}
+.connect-icon {
+    padding-right:10px;
+}
+html, body {
+  height:100%;
+  margin:0;
+  font-family: 'Muli', sans-serif, Serif;
+}
+
+a, a:hover, a:visited {
+    color:black;
+    text-decoration:none;
+}
